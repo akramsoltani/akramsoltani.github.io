@@ -155,10 +155,11 @@ blockquote {
 /* Hero */
 
 #infinite {
-	background-color: #002;
+	background-color: #000;
   background-image: url("https://www.jakpost.travel/imgfiles/full/145/1455418/simple-wallpaper-1920x1080.jpg");
-  background-repeat: no-repeat;
-  height: 100vh;
+  background-repeat: repeat;
+	padding-top: 7%;
+  height: 110vh;
   min-height: 375px;
   position: relative;
 }
@@ -207,8 +208,9 @@ blockquote {
 }
 
 .tm-hero-title {
-    font-size: 4.2rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 500;
+	text-shadow: 2px 2px 2px #444;
 }
 
 .tm-hero-subtitle {
